@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node (frontend deploy)
+frontend/node_modules/
+
+# ML chart outputs (regenerated locally)
+backend/reports/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Env secrets
+.env
+.env.*

@@ -1,0 +1,5 @@
+# Optional: deploy frontend only on Netlify (backend stays on Railway)
+
+[build]
+  publish = "frontend"
+  command = "echo 'No build — static site'"

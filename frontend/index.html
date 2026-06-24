@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Apriori Counter — Market Basket Analysis</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232E1F17'/%3E%3Cpath d='M6 9h2.5l3.5 10h9l3-7H10' stroke='%23E4D2AC' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='13' cy='22' r='1.4' fill='%23C1672B'/%3E%3Ccircle cx='20' cy='22' r='1.4' fill='%23C1672B'/%3E%3Cline x1='14' y1='13' x2='14' y2='18' stroke='%23E4D2AC' stroke-width='1.2' stroke-linecap='round'/%3E%3Cline x1='17' y1='12' x2='17' y2='18' stroke='%23E4D2AC' stroke-width='1.2' stroke-linecap='round'/%3E%3Cline x1='20' y1='13' x2='20' y2='18' stroke='%23E4D2AC' stroke-width='1.2' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="wrap">
+    <a href="#top" class="logo"><span class="dot"></span>The Apriori Counter</a>
+    <ul class="nav-links">
+      <li><a href="#brew">Brew</a></li>
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#rules">Rules</a></li>
+    </ul>
+    <button class="btn btn-outline btn-sm nav-toggle" id="navToggle">Menu</button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">Market Basket Analysis · No. 0192</div>
+    <h1>What gets ordered<br><em>together</em>, stays together.</h1>
+    <p class="lead">Upload a transaction ledger. The Python backend runs Apriori (via mlxtend),
+      returns association rules, and this frontend displays them as receipts — same UI, clear separation for defense.</p>
+    <div class="cta-row">
+      <button class="btn btn-primary" id="ctaUpload">Upload a ledger ↑</button>
+      <button class="btn btn-outline on-dark" id="ctaSample">Try the sample till</button>
+    </div>
+  </div>
+  <div class="torn"></div>
+</header>
+
+<main>
+  <section id="brew" class="texture">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Step 01 — Load the till</div>
+        <h2>Feed it a ledger</h2>
+        <p>Drop a CSV where each row is one order. Columns named “Addons” are split automatically on the backend.</p>
+      </div>
+      <div class="panel">
+        <div class="upload-grid">
+          <div class="dropzone" id="dropzone">
+            <div class="icon">🧾</div>
+            <h3>Drop your CSV here</h3>
+            <p>or browse the till for a file</p>
+            <button class="btn btn-primary" id="browseBtn">Browse files</button>
+            <div class="or-divider">— or —</div>
+            <button class="btn btn-outline" id="sampleBtn">Use the sample coffee-shop till</button>
+            <input type="file" id="fileInput" accept=".csv">
+            <div class="file-name" id="fileName"></div>
+          </div>
+          <div class="params">
+            <h3>Brewing strength</h3>
+            <div class="param-row">
+              <label>Min. support <span class="val" id="supVal">0.02</span></label>
+              <input type="range" id="supRange" min="0.01" max="0.30" step="0.01" value="0.02">
+            </div>
+            <div class="param-row">
+              <label>Min. confidence <span class="val" id="confVal">0.30</span></label>
+              <input type="range" id="confRange" min="0.10" max="0.90" step="0.05" value="0.30">
+            </div>
+            <div class="param-row">
+              <label>Min. lift <span class="val" id="liftVal">1.00</span></label>
+              <input type="range" id="liftRange" min="1.00" max="3.00" step="0.10" value="1.00">
+            </div>
+            <button class="btn btn-primary" id="runBtn" disabled>Brew the rules →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ledger">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Step 02 — Today's totals</div>
+        <h2>Counted at the register</h2>
+      </div>
+      <div id="statsArea">
+        <div class="stats-receipt">
+          <div class="r-title">REGISTER SUMMARY</div>
+          <div class="r-sub">awaiting a ledger…</div>
+          <div class="stat-line"><span class="label">Transactions</span><span class="leader"></span><span class="value">—</span></div>
+          <div class="stat-line"><span class="label">Unique items</span><span class="leader"></span><span class="value">—</span></div>
+          <div class="stat-line"><span class="label">Rules brewed</span><span class="leader"></span><span class="value">—</span></div>
+          <div class="stat-line"><span class="label">Strongest lift</span><span class="leader"></span><span class="value">—</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dashboard">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Step 02 — Data dashboard (EDA)</div>
+        <h2>Inspect your ledger</h2>
+        <p>Preview the imported dataset and top items before Apriori generates rules.</p>
+      </div>
+      <div class="panel">
+        <div id="dashboardArea">
+          <div class="empty">
+            <div class="icon">📊</div>
+            <h3>Dashboard waiting for a file</h3>
+            <p>Upload a CSV or use the sample dataset.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rules" class="texture">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Step 03 — Read the slips</div>
+        <h2>Association rules</h2>
+        <p>Each slip is one rule from the trained Apriori model, sorted by lift.</p>
+      </div>
+      <div class="toolbar">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="searchInput" placeholder="Search an item, e.g. “Oat Milk”">
+        </div>
+        <div class="filters" id="sortFilters">
+          <button class="chip active" data-sort="lift">Sort by lift</button>
+          <button class="chip" data-sort="confidence">Sort by confidence</button>
+          <button class="chip" data-sort="support">Sort by support</button>
+        </div>
+      </div>
+      <div id="rulesArea">
+        <div class="empty">
+          <div class="icon">☕</div>
+          <h3>No rules brewed yet</h3>
+          <p>Upload a ledger and press “Brew the rules”.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 The Apriori Counter — frontend + Python backend</span>
+    <span class="tag">Apriori · mlxtend · FastAPI</span>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

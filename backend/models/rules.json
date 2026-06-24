@@ -1,0 +1,1881 @@
+{
+  "source": "CoffeeBeanAndTeaLeafCoffeeShopData1.csv",
+  "eda": {
+    "transaction_count": 194,
+    "unique_items": 55,
+    "avg_items_per_order": 2.58,
+    "column_count": 4,
+    "columns": [
+      "Drinks",
+      "Customizations",
+      "Foods",
+      "Addons"
+    ],
+    "missing_cells": 275,
+    "top_items": [
+      {
+        "name": "Switch to Oat Milk",
+        "count": 30
+      },
+      {
+        "name": "Go Extreme!",
+        "count": 22
+      },
+      {
+        "name": "Affogato",
+        "count": 22
+      },
+      {
+        "name": "Waffles",
+        "count": 20
+      },
+      {
+        "name": "Chocolate Covered Espresso Beans",
+        "count": 20
+      },
+      {
+        "name": "Blueberries",
+        "count": 18
+      },
+      {
+        "name": "Classic French Toast",
+        "count": 17
+      },
+      {
+        "name": "Mixed Fruit Cup",
+        "count": 17
+      },
+      {
+        "name": "Swicth to Soy Milk",
+        "count": 16
+      },
+      {
+        "name": "Bacon and Butter",
+        "count": 14
+      },
+      {
+        "name": "Breakfast Skillet",
+        "count": 13
+      },
+      {
+        "name": "Vanilla Latte",
+        "count": 13
+      },
+      {
+        "name": "Ham and Cheese",
+        "count": 13
+      },
+      {
+        "name": "Mocha Latte",
+        "count": 13
+      },
+      {
+        "name": "Espresso",
+        "count": 11
+      }
+    ],
+    "preview_rows": [
+      [
+        "Caramel",
+        "Switch to Oat Milk",
+        "",
+        ""
+      ],
+      [
+        "Mocha Chip",
+        "Switch to Oat Milk",
+        "",
+        ""
+      ],
+      [
+        "Caf\u00e9 Latte",
+        "Go Extreme!",
+        "Waffles",
+        "Blueberries"
+      ],
+      [
+        "Moroccan Mint",
+        "Swicth to Soy Milk",
+        "Beef Tapa",
+        ""
+      ],
+      [
+        "Espresso",
+        "Switch to Oat Milk",
+        "Classic French Toast",
+        "Hash Brown"
+      ],
+      [
+        "Spanish Latte",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Ginseng Peppermint",
+        "",
+        "Classic French Toast",
+        "Blueberries"
+      ],
+      [
+        "Jasmin Dragon Phoenix Pearl",
+        "Switch to Oat Milk",
+        "",
+        ""
+      ],
+      [
+        "Sunrise",
+        "Go Extreme!",
+        "Breakfast Skillet",
+        ""
+      ],
+      [
+        "Appricot Ceylon",
+        "",
+        "Pizza Pockets",
+        ""
+      ],
+      [
+        "Appricot Ceylon",
+        "",
+        "Pizza Pockets",
+        ""
+      ],
+      [
+        "Cold Brew",
+        "Switch to Oat Milk",
+        "",
+        ""
+      ],
+      [
+        "Sunrise",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Vanilla Latte",
+        "Switch to Oat Milk",
+        "Breakfast Skillet",
+        "Eggs Your Way"
+      ],
+      [
+        "Genmaicha Green",
+        "Switch to Oat Milk",
+        "",
+        ""
+      ],
+      [
+        "Hot Vanilla",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sunrise",
+        "Go Extreme!",
+        "Breakfast Skillet",
+        ""
+      ],
+      [
+        "Caramel Machiato",
+        "Chocolate Covered Espresso Beans",
+        "Grilled Cheese",
+        ""
+      ],
+      [
+        "Caramel Cold Brew",
+        "Affogato",
+        "Bacon Cheese Burger",
+        ""
+      ],
+      [
+        "Matcha",
+        "Go Extreme!",
+        "Ham and Cheese",
+        ""
+      ],
+      [
+        "Caf\u00e9 Latte",
+        "",
+        "Steak Chimichurri",
+        "Bacon and Butter"
+      ],
+      [
+        "Moroccan Mint",
+        "",
+        "Grilled Cheese",
+        "Mixed Fruit Cup"
+      ],
+      [
+        "Cappaccino",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sunrise",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Vanilla Latte",
+        "Affogato",
+        "",
+        ""
+      ],
+      [
+        "Double Chocolate",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Caf\u00e9 Latte",
+        "",
+        "Steak Chimichurri",
+        "Bacon and Butter"
+      ],
+      [
+        "Hot Double Chocolate w/ Marshmellow",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Caramel Cold Brew",
+        "Switch to Oat Milk",
+        "",
+        ""
+      ],
+      [
+        "Vanilla Latte",
+        "",
+        "Classic French Toast",
+        "Mixed Fruit Cup"
+      ],
+      [
+        "Jasmin Dragon Phoenix Pearl",
+        "",
+        "Ham and Cheese",
+        ""
+      ],
+      [
+        "Mocha Latte",
+        "Affogato",
+        "Pancakes",
+        "Blueberries"
+      ],
+      [
+        "Pure Double Chocolate",
+        "Switch to Oat Milk",
+        "Classic French Toast",
+        ""
+      ],
+      [
+        "Double Chocolate",
+        "Go Extreme!",
+        "Waffles",
+        ""
+      ],
+      [
+        "Hot Vanilla",
+        "Switch to Oat Milk",
+        "Classic French Toast",
+        ""
+      ],
+      [
+        "Mocha Chip",
+        "Switch to Oat Milk",
+        "",
+        ""
+      ],
+      [
+        "Americano",
+        "Switch to Oat Milk",
+        "",
+        ""
+      ],
+      [
+        "Caramel",
+        "Go Extreme!",
+        "Bacon Cheese Burger",
+        "Hash Brown"
+      ],
+      [
+        "Cold Brew Latte",
+        "Go Extreme!",
+        "Mac and Cheese",
+        "Bacon and Butter"
+      ],
+      [
+        "Caramel",
+        "Go Extreme!",
+        "Bacon Cheese Burger",
+        "Hash Brown"
+      ],
+      [
+        "Genmaicha Green",
+        "",
+        "",
+        ""
+      ],
+      [
+        "African Sunrise",
+        "",
+        "Eggs Benedict",
+        ""
+      ],
+      [
+        "Pure Double Chocolate",
+        "Switch to Oat Milk",
+        "Classic French Toast",
+        ""
+      ],
+      [
+        "Caramel Cold Brew",
+        "Affogato",
+        "Bacon Cheese Burger",
+        ""
+      ],
+      [
+        "Ginseng Peppermint",
+        "Swicth to Soy Milk",
+        "",
+        ""
+      ],
+      [
+        "Americano",
+        "Affogato",
+        "",
+        ""
+      ],
+      [
+        "Pure Double Chocolate",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Mocha Latte",
+        "Go Extreme!",
+        "Ham and Cheese",
+        "Hash Brown"
+      ],
+      [
+        "Cold Brew",
+        "",
+        "Breakfast Skillet",
+        "Cup of Soup"
+      ],
+      [
+        "Mocha Chip",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "model": {
+    "frequent_itemsets": [
+      {
+        "items": [
+          "Affogato"
+        ],
+        "support": 0.1134020618556701
+      },
+      {
+        "items": [
+          "Americano"
+        ],
+        "support": 0.04639175257731959
+      },
+      {
+        "items": [
+          "Appricot Ceylon"
+        ],
+        "support": 0.04639175257731959
+      },
+      {
+        "items": [
+          "Asian Chicken Salad"
+        ],
+        "support": 0.04639175257731959
+      },
+      {
+        "items": [
+          "Bacon Cheese Burger"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Bacon and Butter"
+        ],
+        "support": 0.07216494845360824
+      },
+      {
+        "items": [
+          "Blueberries"
+        ],
+        "support": 0.09278350515463918
+      },
+      {
+        "items": [
+          "Breakfast Skillet"
+        ],
+        "support": 0.06701030927835051
+      },
+      {
+        "items": [
+          "Caf\u00e9 Latte"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Cappaccino"
+        ],
+        "support": 0.041237113402061855
+      },
+      {
+        "items": [
+          "Caramel"
+        ],
+        "support": 0.041237113402061855
+      },
+      {
+        "items": [
+          "Caramel Cold Brew"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Chocolate Covered Espresso Beans"
+        ],
+        "support": 0.10309278350515463
+      },
+      {
+        "items": [
+          "Classic French Toast"
+        ],
+        "support": 0.08762886597938144
+      },
+      {
+        "items": [
+          "Cold Brew"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Cold Brew Latte"
+        ],
+        "support": 0.041237113402061855
+      },
+      {
+        "items": [
+          "Double Chocolate"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Eggs Benedict"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Eggs Your Way"
+        ],
+        "support": 0.041237113402061855
+      },
+      {
+        "items": [
+          "English Breakfast"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Espresso"
+        ],
+        "support": 0.05670103092783505
+      },
+      {
+        "items": [
+          "Genmaicha Green"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Ginseng Peppermint"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Go Extreme!"
+        ],
+        "support": 0.1134020618556701
+      },
+      {
+        "items": [
+          "Grilled Cheese"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Ham and Cheese"
+        ],
+        "support": 0.06701030927835051
+      },
+      {
+        "items": [
+          "Hash Brown"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Hot Double Chocolate w/ Marshmellow"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Hot Vanilla"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Jasmin Dragon Phoenix Pearl"
+        ],
+        "support": 0.04639175257731959
+      },
+      {
+        "items": [
+          "Lemon Chamomile"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Matcha"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.08762886597938144
+      },
+      {
+        "items": [
+          "Mocha Chip"
+        ],
+        "support": 0.041237113402061855
+      },
+      {
+        "items": [
+          "Mocha Latte"
+        ],
+        "support": 0.06701030927835051
+      },
+      {
+        "items": [
+          "Moroccan Mint"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Pancakes"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Pizza Pockets"
+        ],
+        "support": 0.05154639175257732
+      },
+      {
+        "items": [
+          "Pure Double Chocolate"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Sour Dough Bread"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Spanish Latte"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Steak Chimichurri"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Sunrise"
+        ],
+        "support": 0.05154639175257732
+      },
+      {
+        "items": [
+          "Swicth to Soy Milk"
+        ],
+        "support": 0.08247422680412371
+      },
+      {
+        "items": [
+          "Switch to Oat Milk"
+        ],
+        "support": 0.15463917525773196
+      },
+      {
+        "items": [
+          "Switch to Soy Milk"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Vanilla Latte"
+        ],
+        "support": 0.06701030927835051
+      },
+      {
+        "items": [
+          "Waffles"
+        ],
+        "support": 0.10309278350515463
+      },
+      {
+        "items": [
+          "Affogato",
+          "Americano"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Affogato",
+          "Asian Chicken Salad"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Affogato",
+          "Blueberries"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Affogato",
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Affogato",
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Appricot Ceylon",
+          "Pizza Pockets"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Asian Chicken Salad",
+          "Eggs Your Way"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Bacon Cheese Burger",
+          "Go Extreme!"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Bacon and Butter",
+          "Waffles"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Blueberries",
+          "Classic French Toast"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Blueberries",
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Blueberries",
+          "Pancakes"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Blueberries",
+          "Waffles"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Breakfast Skillet",
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Chocolate Covered Espresso Beans",
+          "Espresso"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Classic French Toast",
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Classic French Toast",
+          "Pure Double Chocolate"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Classic French Toast",
+          "Switch to Oat Milk"
+        ],
+        "support": 0.03608247422680412
+      },
+      {
+        "items": [
+          "Classic French Toast",
+          "Vanilla Latte"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Double Chocolate",
+          "Go Extreme!"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Double Chocolate",
+          "Waffles"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Eggs Your Way",
+          "Switch to Oat Milk"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Go Extreme!",
+          "Ham and Cheese"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Go Extreme!",
+          "Hash Brown"
+        ],
+        "support": 0.02577319587628866
+      },
+      {
+        "items": [
+          "Go Extreme!",
+          "Waffles"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Grilled Cheese",
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Grilled Cheese",
+          "Moroccan Mint"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Ham and Cheese",
+          "Jasmin Dragon Phoenix Pearl"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Lemon Chamomile",
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Lemon Chamomile",
+          "Pizza Pockets"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Mixed Fruit Cup",
+          "Moroccan Mint"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Mixed Fruit Cup",
+          "Pizza Pockets"
+        ],
+        "support": 0.030927835051546393
+      },
+      {
+        "items": [
+          "Mixed Fruit Cup",
+          "Vanilla Latte"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Mocha Latte",
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Affogato",
+          "Blueberries",
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Affogato",
+          "Blueberries",
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Affogato",
+          "Mocha Latte",
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Blueberries",
+          "Mocha Latte",
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Classic French Toast",
+          "Mixed Fruit Cup",
+          "Vanilla Latte"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Double Chocolate",
+          "Go Extreme!",
+          "Waffles"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Grilled Cheese",
+          "Mixed Fruit Cup",
+          "Moroccan Mint"
+        ],
+        "support": 0.020618556701030927
+      },
+      {
+        "items": [
+          "Lemon Chamomile",
+          "Mixed Fruit Cup",
+          "Pizza Pockets"
+        ],
+        "support": 0.020618556701030927
+      }
+    ],
+    "rules": [
+      {
+        "antecedent": [
+          "Pancakes"
+        ],
+        "consequent": [
+          "Blueberries",
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 27.71428571428572
+      },
+      {
+        "antecedent": [
+          "Pancakes"
+        ],
+        "consequent": [
+          "Affogato",
+          "Blueberries"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 27.71428571428572
+      },
+      {
+        "antecedent": [
+          "Moroccan Mint"
+        ],
+        "consequent": [
+          "Grilled Cheese",
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 27.71428571428572
+      },
+      {
+        "antecedent": [
+          "Pancakes"
+        ],
+        "consequent": [
+          "Affogato",
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 27.71428571428572
+      },
+      {
+        "antecedent": [
+          "Grilled Cheese"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup",
+          "Moroccan Mint"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 27.71428571428572
+      },
+      {
+        "antecedent": [
+          "Affogato",
+          "Blueberries"
+        ],
+        "consequent": [
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 27.714285714285715
+      },
+      {
+        "antecedent": [
+          "Affogato",
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 27.714285714285715
+      },
+      {
+        "antecedent": [
+          "Blueberries",
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 27.714285714285715
+      },
+      {
+        "antecedent": [
+          "Grilled Cheese",
+          "Mixed Fruit Cup"
+        ],
+        "consequent": [
+          "Moroccan Mint"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 27.714285714285715
+      },
+      {
+        "antecedent": [
+          "Mixed Fruit Cup",
+          "Moroccan Mint"
+        ],
+        "consequent": [
+          "Grilled Cheese"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 27.714285714285715
+      },
+      {
+        "antecedent": [
+          "Pizza Pockets"
+        ],
+        "consequent": [
+          "Lemon Chamomile",
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.4,
+        "lift": 19.400000000000002
+      },
+      {
+        "antecedent": [
+          "Lemon Chamomile",
+          "Mixed Fruit Cup"
+        ],
+        "consequent": [
+          "Pizza Pockets"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 19.400000000000002
+      },
+      {
+        "antecedent": [
+          "Mixed Fruit Cup",
+          "Pizza Pockets"
+        ],
+        "consequent": [
+          "Lemon Chamomile"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.6666666666666666,
+        "lift": 18.476190476190478
+      },
+      {
+        "antecedent": [
+          "Lemon Chamomile"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup",
+          "Pizza Pockets"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 18.476190476190478
+      },
+      {
+        "antecedent": [
+          "Double Chocolate"
+        ],
+        "consequent": [
+          "Go Extreme!",
+          "Waffles"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 18.476190476190478
+      },
+      {
+        "antecedent": [
+          "Go Extreme!",
+          "Waffles"
+        ],
+        "consequent": [
+          "Double Chocolate"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.6666666666666666,
+        "lift": 18.476190476190478
+      },
+      {
+        "antecedent": [
+          "Asian Chicken Salad"
+        ],
+        "consequent": [
+          "Eggs Your Way"
+        ],
+        "support": 0.030927835051546393,
+        "confidence": 0.6666666666666666,
+        "lift": 16.166666666666668
+      },
+      {
+        "antecedent": [
+          "Eggs Your Way"
+        ],
+        "consequent": [
+          "Asian Chicken Salad"
+        ],
+        "support": 0.030927835051546393,
+        "confidence": 0.75,
+        "lift": 16.166666666666664
+      },
+      {
+        "antecedent": [
+          "Moroccan Mint"
+        ],
+        "consequent": [
+          "Grilled Cheese"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 15.836734693877554
+      },
+      {
+        "antecedent": [
+          "Grilled Cheese"
+        ],
+        "consequent": [
+          "Moroccan Mint"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 15.836734693877554
+      },
+      {
+        "antecedent": [
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Affogato",
+          "Blueberries"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 14.923076923076923
+      },
+      {
+        "antecedent": [
+          "Affogato",
+          "Blueberries"
+        ],
+        "consequent": [
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 14.923076923076923
+      },
+      {
+        "antecedent": [
+          "Classic French Toast",
+          "Mixed Fruit Cup"
+        ],
+        "consequent": [
+          "Vanilla Latte"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 14.923076923076923
+      },
+      {
+        "antecedent": [
+          "Vanilla Latte"
+        ],
+        "consequent": [
+          "Classic French Toast",
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 14.923076923076923
+      },
+      {
+        "antecedent": [
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Affogato",
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 14.923076923076923
+      },
+      {
+        "antecedent": [
+          "Affogato",
+          "Pancakes"
+        ],
+        "consequent": [
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 14.923076923076923
+      },
+      {
+        "antecedent": [
+          "Classic French Toast",
+          "Vanilla Latte"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 11.411764705882353
+      },
+      {
+        "antecedent": [
+          "Mixed Fruit Cup",
+          "Vanilla Latte"
+        ],
+        "consequent": [
+          "Classic French Toast"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 11.411764705882353
+      },
+      {
+        "antecedent": [
+          "Lemon Chamomile",
+          "Pizza Pockets"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 11.411764705882353
+      },
+      {
+        "antecedent": [
+          "Grilled Cheese",
+          "Moroccan Mint"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 11.411764705882353
+      },
+      {
+        "antecedent": [
+          "Lemon Chamomile"
+        ],
+        "consequent": [
+          "Pizza Pockets"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 11.085714285714287
+      },
+      {
+        "antecedent": [
+          "Pizza Pockets"
+        ],
+        "consequent": [
+          "Lemon Chamomile"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.4,
+        "lift": 11.085714285714287
+      },
+      {
+        "antecedent": [
+          "Blueberries"
+        ],
+        "consequent": [
+          "Pancakes"
+        ],
+        "support": 0.03608247422680412,
+        "confidence": 0.38888888888888884,
+        "lift": 10.777777777777777
+      },
+      {
+        "antecedent": [
+          "Pancakes"
+        ],
+        "consequent": [
+          "Blueberries"
+        ],
+        "support": 0.03608247422680412,
+        "confidence": 1.0,
+        "lift": 10.777777777777777
+      },
+      {
+        "antecedent": [
+          "Affogato",
+          "Pancakes"
+        ],
+        "consequent": [
+          "Blueberries"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 10.777777777777777
+      },
+      {
+        "antecedent": [
+          "Mocha Latte",
+          "Pancakes"
+        ],
+        "consequent": [
+          "Blueberries"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 10.777777777777777
+      },
+      {
+        "antecedent": [
+          "Affogato",
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Blueberries"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 10.777777777777777
+      },
+      {
+        "antecedent": [
+          "Double Chocolate",
+          "Go Extreme!"
+        ],
+        "consequent": [
+          "Waffles"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 9.700000000000001
+      },
+      {
+        "antecedent": [
+          "Double Chocolate",
+          "Waffles"
+        ],
+        "consequent": [
+          "Go Extreme!"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 8.818181818181818
+      },
+      {
+        "antecedent": [
+          "Mocha Latte",
+          "Pancakes"
+        ],
+        "consequent": [
+          "Affogato"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 8.818181818181818
+      },
+      {
+        "antecedent": [
+          "Blueberries",
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Affogato"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 1.0,
+        "lift": 8.818181818181818
+      },
+      {
+        "antecedent": [
+          "Pizza Pockets"
+        ],
+        "consequent": [
+          "Appricot Ceylon"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.4,
+        "lift": 8.622222222222222
+      },
+      {
+        "antecedent": [
+          "Appricot Ceylon"
+        ],
+        "consequent": [
+          "Pizza Pockets"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.4444444444444444,
+        "lift": 8.622222222222222
+      },
+      {
+        "antecedent": [
+          "Blueberries",
+          "Pancakes"
+        ],
+        "consequent": [
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 8.52747252747253
+      },
+      {
+        "antecedent": [
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 8.52747252747253
+      },
+      {
+        "antecedent": [
+          "Pancakes"
+        ],
+        "consequent": [
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 8.52747252747253
+      },
+      {
+        "antecedent": [
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Blueberries",
+          "Pancakes"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 8.52747252747253
+      },
+      {
+        "antecedent": [
+          "Pure Double Chocolate"
+        ],
+        "consequent": [
+          "Classic French Toast"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.6666666666666666,
+        "lift": 7.6078431372549025
+      },
+      {
+        "antecedent": [
+          "Pizza Pockets"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.030927835051546393,
+        "confidence": 0.6000000000000001,
+        "lift": 6.847058823529413
+      },
+      {
+        "antecedent": [
+          "Mixed Fruit Cup"
+        ],
+        "consequent": [
+          "Pizza Pockets"
+        ],
+        "support": 0.030927835051546393,
+        "confidence": 0.35294117647058826,
+        "lift": 6.847058823529412
+      },
+      {
+        "antecedent": [
+          "Ham and Cheese"
+        ],
+        "consequent": [
+          "Jasmin Dragon Phoenix Pearl"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 6.632478632478633
+      },
+      {
+        "antecedent": [
+          "Jasmin Dragon Phoenix Pearl"
+        ],
+        "consequent": [
+          "Ham and Cheese"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.4444444444444444,
+        "lift": 6.632478632478632
+      },
+      {
+        "antecedent": [
+          "Grilled Cheese"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 6.521008403361346
+      },
+      {
+        "antecedent": [
+          "Moroccan Mint"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 6.521008403361346
+      },
+      {
+        "antecedent": [
+          "Lemon Chamomile"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 6.521008403361346
+      },
+      {
+        "antecedent": [
+          "Hash Brown"
+        ],
+        "consequent": [
+          "Go Extreme!"
+        ],
+        "support": 0.02577319587628866,
+        "confidence": 0.7142857142857143,
+        "lift": 6.298701298701299
+      },
+      {
+        "antecedent": [
+          "Asian Chicken Salad"
+        ],
+        "consequent": [
+          "Affogato"
+        ],
+        "support": 0.030927835051546393,
+        "confidence": 0.6666666666666666,
+        "lift": 5.878787878787879
+      },
+      {
+        "antecedent": [
+          "Bacon Cheese Burger"
+        ],
+        "consequent": [
+          "Go Extreme!"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.6666666666666666,
+        "lift": 5.878787878787879
+      },
+      {
+        "antecedent": [
+          "Double Chocolate"
+        ],
+        "consequent": [
+          "Waffles"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 5.542857142857144
+      },
+      {
+        "antecedent": [
+          "Pancakes"
+        ],
+        "consequent": [
+          "Affogato"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 5.038961038961039
+      },
+      {
+        "antecedent": [
+          "Blueberries",
+          "Pancakes"
+        ],
+        "consequent": [
+          "Affogato"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 5.038961038961039
+      },
+      {
+        "antecedent": [
+          "Double Chocolate"
+        ],
+        "consequent": [
+          "Go Extreme!"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.5714285714285715,
+        "lift": 5.038961038961039
+      },
+      {
+        "antecedent": [
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Breakfast Skillet"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 4.591715976331361
+      },
+      {
+        "antecedent": [
+          "Breakfast Skillet"
+        ],
+        "consequent": [
+          "Mocha Latte"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 4.591715976331361
+      },
+      {
+        "antecedent": [
+          "Waffles"
+        ],
+        "consequent": [
+          "Bacon and Butter"
+        ],
+        "support": 0.030927835051546393,
+        "confidence": 0.30000000000000004,
+        "lift": 4.157142857142858
+      },
+      {
+        "antecedent": [
+          "Bacon and Butter"
+        ],
+        "consequent": [
+          "Waffles"
+        ],
+        "support": 0.030927835051546393,
+        "confidence": 0.4285714285714286,
+        "lift": 4.1571428571428575
+      },
+      {
+        "antecedent": [
+          "Eggs Your Way"
+        ],
+        "consequent": [
+          "Switch to Oat Milk"
+        ],
+        "support": 0.02577319587628866,
+        "confidence": 0.625,
+        "lift": 4.041666666666666
+      },
+      {
+        "antecedent": [
+          "Americano"
+        ],
+        "consequent": [
+          "Affogato"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.4444444444444444,
+        "lift": 3.919191919191919
+      },
+      {
+        "antecedent": [
+          "Blueberries"
+        ],
+        "consequent": [
+          "Waffles"
+        ],
+        "support": 0.03608247422680412,
+        "confidence": 0.38888888888888884,
+        "lift": 3.772222222222222
+      },
+      {
+        "antecedent": [
+          "Waffles"
+        ],
+        "consequent": [
+          "Blueberries"
+        ],
+        "support": 0.03608247422680412,
+        "confidence": 0.35,
+        "lift": 3.7722222222222217
+      },
+      {
+        "antecedent": [
+          "Espresso"
+        ],
+        "consequent": [
+          "Chocolate Covered Espresso Beans"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.36363636363636365,
+        "lift": 3.5272727272727273
+      },
+      {
+        "antecedent": [
+          "Vanilla Latte"
+        ],
+        "consequent": [
+          "Classic French Toast"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 3.5113122171945705
+      },
+      {
+        "antecedent": [
+          "Vanilla Latte"
+        ],
+        "consequent": [
+          "Mixed Fruit Cup"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 3.5113122171945705
+      },
+      {
+        "antecedent": [
+          "Ham and Cheese"
+        ],
+        "consequent": [
+          "Go Extreme!"
+        ],
+        "support": 0.02577319587628866,
+        "confidence": 0.3846153846153846,
+        "lift": 3.3916083916083912
+      },
+      {
+        "antecedent": [
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Blueberries"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 3.3162393162393164
+      },
+      {
+        "antecedent": [
+          "Mocha Latte"
+        ],
+        "consequent": [
+          "Affogato"
+        ],
+        "support": 0.020618556701030927,
+        "confidence": 0.3076923076923077,
+        "lift": 2.7132867132867133
+      },
+      {
+        "antecedent": [
+          "Classic French Toast"
+        ],
+        "consequent": [
+          "Switch to Oat Milk"
+        ],
+        "support": 0.03608247422680412,
+        "confidence": 0.4117647058823529,
+        "lift": 2.6627450980392156
+      },
+      {
+        "antecedent": [
+          "Waffles"
+        ],
+        "consequent": [
+          "Go Extreme!"
+        ],
+        "support": 0.030927835051546393,
+        "confidence": 0.30000000000000004,
+        "lift": 2.645454545454546
+      }
+    ],
+    "metrics": {
+      "rule_count": 78,
+      "frequent_itemset_count": 90,
+      "top_lift": 27.71428571428572,
+      "hyperparameters": {
+        "min_support": 0.02,
+        "min_confidence": 0.3,
+        "min_lift": 1.0,
+        "max_len": 3
+      }
+    }
+  }
+}
