@@ -26,6 +26,15 @@ MODEL_DIR.mkdir(exist_ok=True)
 DEFAULT_MODEL = MODEL_DIR / "rules.json"
 
 
+@app.get("/")
+def root():
+    return {
+        "service": "Apriori Counter API",
+        "health": "/api/health",
+        "docs": "/docs",
+    }
+
+
 @app.get("/api/health")
 def health():
     return {"status": "ok", "model_exists": DEFAULT_MODEL.exists()}

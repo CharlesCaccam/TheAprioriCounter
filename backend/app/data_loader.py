@@ -7,7 +7,17 @@ from typing import Any
 
 import pandas as pd
 
-DATA_DIR = Path(__file__).resolve().parents[2] / "data"
+_APP_DIR = Path(__file__).resolve().parent
+_BACKEND_DIR = _APP_DIR.parent
+_REPO_ROOT = _BACKEND_DIR.parent
+
+# Railway uses rootDir=backend, so keep a copy in backend/data too.
+_CANDIDATE_DIRS = (
+    _BACKEND_DIR / "data",
+    _REPO_ROOT / "data",
+)
+
+DATA_DIR = next((d for d in _CANDIDATE_DIRS if d.exists()), _REPO_ROOT / "data")
 DEFAULT_CSV = DATA_DIR / "CoffeeBeanAndTeaLeafCoffeeShopData1.csv"
 
 

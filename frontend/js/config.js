@@ -1,15 +1,15 @@
 /**
- * API URL for deployment.
- * After deploying the backend on Railway, replace YOUR-BACKEND with your service URL.
- * Example: https://apriori-counter-api-production.up.railway.app
+ * Production API URL — update after Railway generates your backend domain.
+ * Find it: Railway → TheAprioriCounter service → Settings → Networking → Public domain
  */
 (function () {
   const isLocal =
     location.hostname === "localhost" ||
-    location.hostname === "127.0.0.1" ||
-    location.hostname === "";
+    location.hostname === "127.0.0.1";
 
   window.API_BASE =
     window.API_BASE ||
-    (isLocal ? "http://127.0.0.1:8000" : "https://YOUR-BACKEND.up.railway.app");
+    (isLocal
+      ? "http://127.0.0.1:8000"
+      : "https://theaprioricounter-production.up.railway.app");
 })();
