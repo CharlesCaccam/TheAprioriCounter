@@ -2,6 +2,7 @@
 Exploratory Data Analysis (EDA) for Coffee Bean & Tea Leaf market-basket data.
 
 Run from project root:
+  pip install -r backend/requirements-dev.txt
   python backend/scripts/eda.py
 
 Outputs charts to backend/reports/ for your project defense slides.
